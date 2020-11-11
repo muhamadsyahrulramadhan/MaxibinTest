@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.login-register-container{
+    height:auto;
+    width: 430px;
+    padding: 60px 35px 35px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow:5px 5px 3px #aaaaaa,
+               -5px -5px 3px rgb(219, 214, 214);
+}
+
+.login-register-form{
+    max-width: 100%;
+    width: 370px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-control{
+    font: 15px;
+    min-height: 48px;
+    font-weight: 500;
+}
+
+.form-control:focus{
+    border-color: aqua;
+    box-shadow:0 0 0 0.2rem rgba(114, 61, 190,.25);
+}
+
+.font-link{
+    font-size: 13px;
+}
+.forgot-link{
+    font-size: 13px;
+}
+.forgot-link label{
+    margin-bottom: 0;
+}
+.login-form a{
+    text-decoration: none;
+    color: black;
+}
+.login-form a:hover{
+    color: purple;
+}
+.btn-custom{
+    background: skyblue;
+    border-color: steelblue;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+    background: steelblue;
+    border-color: lightblue;
+    color: black;
+}
+.btn-custom:focus{
+    box-shadow:0 0 0 0.2rem rgba(114, 61, 190,.25);
+}
+
+.input-group-text{
+    background: none;
+}
